@@ -1,0 +1,15 @@
+## default_platform(:ios)
+
+##platform :ios do
+##  desc "Deploy to the App Store"
+##  lane :release do
+##    username = ENV['APPLE_ID']
+##    password = ENV['APP_SPECIFIC_PASSWORD']
+
+##    deliver(
+##      username: username,
+##      password: password
+##    )
+##  end
+##end
+

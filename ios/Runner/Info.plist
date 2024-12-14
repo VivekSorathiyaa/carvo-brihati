@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MinimumOSVersion</key>
+	<string>13.0</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Carvo</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Carvo</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Carvo uses your location to show nearby rentals and ensure pickup/delivery is available.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Carvo uses your location to show nearby rentals and ensure pickup/delivery is available.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Carvo uses your location to show nearby rentals and ensure pickup/delivery is available.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Carvo requires access to your camera so that you can take a live picture within our app. When you take and then send this photo, it will be compared to your provided ID to authenticate you.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Carvo requires access to your photo library to choose images of your vehicle for the listing and for you to be able to select a profile picture as needed.</string>
+	<key>NSAppTransportSecurity</key>
+
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-418206404354-ios-b26647ed60681a8616fc1b</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+    <string>remote-notification</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Carvo requires your live camera, if you are trying to upload a current photograph. Carvo allows you to upload your 1. Profile photo. 2. Live Identification Scans when exchanging vehicles with another users. 3. Car Before and After Photographs. 4. When doing identity verification we also require your camera's access for you to be able to take a photograph of yourself. </string>
+	<key>NSCameraUsageDescription
+	&lt;string&gt;To photograph&lt;/string&gt;</key>
+	<string>To photograph your face for profile photos, your ID for verification, and your car status before and after when doing a swap.</string>
+
+<key>CFBundleURLTypes</key>
+<array>
+  <dict>
+  <key>CFBundleURLSchemes</key>
+  <array>
+    <string>fb2924029687763042</string>
+  </array>
+  </dict>
+</array>
+<key>FacebookAppID</key>
+<string>2924029687763042</string>
+<key>FacebookDisplayName</key>
+<string>Carvo Carshare</string>
+
+
+</dict>
+</plist>

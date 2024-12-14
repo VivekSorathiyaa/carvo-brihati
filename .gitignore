@@ -1,0 +1,115 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.bak
+*.tmp
+*.pid
+*.seed
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# IDE-specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code configurations
+.vscode/
+*.code-workspace
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+.melos/
+.cider/
+
+# iOS-related files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec.json
+ios/Flutter/Flutter.podspec.lock
+
+# Include Xcode project and workspace files
+!ios/Runner.xcodeproj/
+!ios/Runner.xcworkspace/
+
+# Include iOS-specific configuration and assets
+!ios/Runner/Info.plist
+!ios/Runner/Assets.xcassets/
+!ios/Runner/LaunchScreen.storyboard
+
+# Android-related files
+/android/.gradle
+/android/.idea
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/build
+*.keystore
+.gradle/
+/.cxx/
+
+# Obfuscation and symbolication files
+app.*.symbols
+app.*.map.json
+*.dSYM.zip
+*.dSYM
+
+# Test and coverage-related
+coverage/
+.dart_tool/test/
+lcov.info
+*.lcov
+
+# Logs and crash reports
+*.log
+*.crash
+*.stacktrace
+
+# Temp and backup files
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Generated files
+*.lock
+*.cache
+*.generated.dart
+*.g.dart
+*.module
+*.timestamp
+*.snap
+
+# Files from package managers
+node_modules/
+yarn.lock
+package-lock.json
+
+# Environment files
+.env
+.env.*
+*.env.local
+*.env.production
+*.env.development

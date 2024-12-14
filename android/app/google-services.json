@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418206404354",
+    "project_id": "jarental-8c681",
+    "storage_bucket": "jarental-8c681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418206404354:android:df96e66a86fd8fec16fc1b",
+        "android_client_info": {
+          "package_name": "com.jarental.jarental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6xf3UW2mun4T2GqwqV-aNi1FiDeZhx48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
